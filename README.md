@@ -9,7 +9,8 @@ To reproduce these notebooks, all you have to do is the following:
 
 ```
 > conda create -n my-env python=3.9
+> conda activate my-env
 > pip install zigzag-dse 
 ```
 
-Now, ZigZag is installed and it's API is exposed through `import zigzag.api` in your code.
+Now, ZigZag is installed and it's API is exposed through `from zigzag import api` in your code.
