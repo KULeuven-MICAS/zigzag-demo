@@ -1,15 +1,12 @@
-This repository gives a first glimpse into the possibilities of using ZigZag.
+# ZigZag Demo
 
-We demonstrate a part of its flow in two jupyter notebooks:
-
-- A comparison of different architectures in `architectures.ipynb`.
-- A breakdown of a single architecture across layers for energy and latency inspection in `breakdown.ipynb`.
+This repository demonstrates ZigZag framework's capabilities and gives a tutorial of how to use it.
 
 To reproduce these notebooks, all you have to do is the following:
 
 ```
-> conda create -n my-env python=3.9
-> conda activate my-env
+> conda create -n zigzag python=3.9
+> conda activate zigzag
 > pip install zigzag-dse 
 ```
 
