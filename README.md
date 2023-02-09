@@ -10,7 +10,7 @@ To reproduce these notebooks, all you need to have to do is the following:
 > conda create -n zigzag python=3.9
 > conda activate zigzag
 > pip install zigzag-dse
-> conda install -c anaconda ipykernel
+> conda install -c anaconda ipykernel jupyter
 > python -m ipykernel install --user --name=zigzag
 ```
 
