@@ -24,3 +24,12 @@ You can start your Jupyter Notebook:
 Select the correct conda environment:
 
 ![image](https://user-images.githubusercontent.com/55059827/217651717-5370259d-a47a-46a8-b703-3292fefd65dc.png)
+
+
+## Content
+- [Demo1](https://github.com/ZigZag-Project/zigzag-demo/blob/main/Demo1.ipynb): Run a DNN on an accelerator, get energy and latency breakdown.
+- [Demo2](https://github.com/ZigZag-Project/zigzag-demo/blob/main/Demo2.ipynb): Hardware architecture comparison.
+- [Tutorial1](https://github.com/ZigZag-Project/zigzag-demo/blob/main/Tutorial1.ipynb): The inputs and outputs of ZigZag - a single-layer example run.
+- [Tutorial1 advance](https://github.com/ZigZag-Project/zigzag-demo/blob/main/Tutorial1_advance.ipynb): The inputs and outputs of ZigZag - a multi-layer example run, with different layer types and residual/branch connection.
+- [Tutorial2](https://github.com/ZigZag-Project/zigzag-demo/blob/main/Tutorial2.ipynb): Look into the ZigZag API function.
+
