@@ -2,13 +2,15 @@
 
 This repository demonstrates ZigZag framework's capabilities and gives a tutorial of how to use it.
 
-To reproduce these notebooks, all you have to do is the following:
+To reproduce these notebooks, all you need to have to do is the following:
 
 ```
+> git clone https://github.com/ZigZag-Project/zigzag-demo.git
+> cd zigzag-demo
 > conda create -n zigzag python=3.9
 > conda activate zigzag
 > pip install zigzag-dse
-> conda install -c anaconda ipykernel
+> conda install -c anaconda ipykernel jupyter
 > python -m ipykernel install --user --name=zigzag
 ```
 
