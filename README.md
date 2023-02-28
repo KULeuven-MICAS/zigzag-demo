@@ -4,21 +4,21 @@ This repository demonstrates ZigZag framework's capabilities and gives a tutoria
 
 To reproduce these notebooks, all you need to have to do is the following:
 
-```
-> git clone https://github.com/ZigZag-Project/zigzag-demo.git
-> cd zigzag-demo
-> conda create -n zigzag python=3.9
-> conda activate zigzag
-> pip install zigzag-dse
-> conda install -c anaconda ipykernel jupyter
-> python -m ipykernel install --user --name=zigzag
+```bash
+git clone https://github.com/ZigZag-Project/zigzag-demo.git
+cd zigzag-demo
+conda create -n zigzag python=3.9
+conda activate zigzag
+pip install zigzag-dse
+conda install -c anaconda ipykernel jupyter
+python -m ipykernel install --user --name=zigzag
 ```
 
 Now, ZigZag is installed and it's API is exposed through `from zigzag import api` in your code. Also, the conda environment is exposed to Jupyter Notebook.
 You can start your Jupyter Notebook:
 
-```
-> jupyter notebook
+```bash
+jupyter notebook
 ```
 
 Select the correct conda environment:
